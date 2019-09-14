@@ -34,7 +34,9 @@
   font-weight: 700;
   src: url("./fonts/Erbaum Bold.otf") format('otf');
 }
-li {
+li,
+th,
+td {
   font-family: 'PT Mono', sans-serif;
 }
 h3 {
@@ -42,6 +44,14 @@ h3 {
   font-weight: 100;
   font-style: italic;
   color: #3f56cb;
+}
+blockquote {
+  font-family: 'PT Mono', sans-serif;
+  color: #3f56cb;
+  font-weight: 100;
+}
+blockquote:before {
+  font-family: 'PT Sans';
 }
 .nosign li {
   font-family: 'PT Mono', sans-serif;

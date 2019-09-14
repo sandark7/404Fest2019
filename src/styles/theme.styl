@@ -38,7 +38,7 @@ extra-color = rgb(223, 228, 229)
 	font-weight 700
 	src url('./fonts/Erbaum Bold.otf') format('otf')
 
-li
+li, th, td
 	font-family 'PT Mono', sans-serif
 
 h3
@@ -46,6 +46,14 @@ h3
 	font-weight 100
 	font-style italic
 	color main-color
+
+blockquote
+	font-family 'PT Mono', sans-serif
+	color main-color
+	font-weight 100
+	&:before
+		font-family 'PT Sans'
+	
 	
 .nosign
 	li
