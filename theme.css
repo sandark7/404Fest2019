@@ -34,16 +34,20 @@
   font-weight: 700;
   src: url("./fonts/Erbaum Bold.otf") format('otf');
 }
+li {
+  font-family: 'PT Mono', sans-serif;
+}
+h3 {
+  font-family: 'PT Mono', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  color: #3f56cb;
+}
 .nosign li {
   font-family: 'PT Mono', sans-serif;
 }
 .nosign li:before {
   visibility: hidden;
-}
-#cover h2 {
-  font-family: 'Erbaum', sans-serif;
-  padding-bottom: 10px;
-  font-size: 53px;
 }
 .slide::after {
   background: none;
