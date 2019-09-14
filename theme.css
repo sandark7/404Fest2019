@@ -139,7 +139,7 @@ blockquote:before {
 .slide.label-header h2 {
   display: inline-block;
   background-color: #dfe4e5;
-  padding: 10px 0 15px;
+  padding: 10px 15px 15px;
   font-family: 'PT Mono', sans-serif;
   font-size: 44px;
   letter-spacing: -3px;
@@ -154,6 +154,7 @@ blockquote:before {
 }
 .slide.label-header.bg h2 {
   background: none;
+  padding: 10px 0 15px;
 }
 .slide.capture h2.shout {
   font-size: 64px;
