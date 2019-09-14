@@ -1,39 +1,3 @@
-@font-face {
-  font-family: 'Erbaum';
-  font-style: normal;
-  font-weight: 100;
-  src: url("./fonts/Erbaum Thin.otf") format('otf');
-}
-@font-face {
-  font-family: 'Erbaum';
-  font-style: normal;
-  font-weight: 200;
-  src: url("./fonts/Erbaum Light.otf") format('otf');
-}
-@font-face {
-  font-family: 'Erbaum';
-  font-style: normal;
-  font-weight: 300;
-  src: url("./fonts/Erbaum Book.otf") format('otf');
-}
-@font-face {
-  font-family: 'Erbaum';
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/Erbaum Regular.otf") format('otf');
-}
-@font-face {
-  font-family: 'Erbaum';
-  font-style: normal;
-  font-weight: 500;
-  src: url("./fonts/Erbaum Medium.otf") format('otf');
-}
-@font-face {
-  font-family: 'Erbaum';
-  font-style: normal;
-  font-weight: 700;
-  src: url("./fonts/Erbaum Bold.otf") format('otf');
-}
 li,
 th,
 td {
@@ -49,6 +13,7 @@ blockquote {
   font-family: 'PT Mono', sans-serif;
   color: #3f56cb;
   font-weight: 100;
+  letter-spacing: -1px;
 }
 blockquote:before {
   font-family: 'PT Sans';
@@ -62,7 +27,7 @@ blockquote:before {
 .slide::after {
   background: none;
   height: 75px;
-  width: 55px;
+  min-width: 55px;
   color: #3f56cb;
   font-family: 'IBM Plex Mono', sans-serif;
   font-size: 40px;
@@ -174,7 +139,7 @@ blockquote:before {
 .slide.label-header h2 {
   display: inline-block;
   background-color: #dfe4e5;
-  padding: 10px 15px 15px;
+  padding: 10px 0 15px;
   font-family: 'PT Mono', sans-serif;
   font-size: 44px;
   letter-spacing: -3px;
